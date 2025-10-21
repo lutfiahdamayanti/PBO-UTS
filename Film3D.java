@@ -1,5 +1,5 @@
 public class Film3D extends Film {
-    private boolean bonusKacamata = true;
+    public boolean bonusKacamata = true;
 
     public Film3D(String idFilm, String judul, String genre, double hargaTiket) {
         super(idFilm, judul, genre, hargaTiket);

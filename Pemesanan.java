@@ -1,7 +1,7 @@
 public class Pemesanan implements Printable {
-    private String namaPemesan;
-    private Film film;
-    private int jumlahTiket;
+    public String namaPemesan;
+    public Film film;
+    public int jumlahTiket;
     private Tiket tiket;
 
     public Pemesanan(String namaPemesan, Film film, int jumlahTiket, String jamTayang) {
